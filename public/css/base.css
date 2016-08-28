@@ -1,0 +1,56 @@
+html {
+  background: url(assets/bg.png) repeat;
+}
+html * {
+  box-sizing:border-box;
+}
+
+.main-container {
+  padding:10px;
+}
+
+.picture {
+  width:420px;
+  text-align: center;
+  margin:0 auto;
+  background: #fff;
+  padding:10px;
+  box-shadow: 0 0 20px #333;
+  border-radius: 5px;
+}
+
+.ms-image {
+  width:400px;
+  height:600px;
+  background: url(../img/chofita-collage.jpg) no-repeat;
+  background-size: cover;
+}
+
+.picture h1 a {
+  font-size:40px;
+  font-family: 'Handlee', cursive;
+  color:rgb(136, 160, 196);
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+  &:visited {
+    color:rgb(136, 160, 196);
+
+    &:hover {
+      color:rgba(136, 160, 196, .5);
+    }
+  }
+
+  &:hover {
+    color:rgba(136, 160, 196, .5);
+  }
+}
+
+.picture p {
+  font-family: 'Gentium Book Basic', serif;
+  font-size:16px;
+  margin-left:30px;
+  margin-right: 30px;
+}
