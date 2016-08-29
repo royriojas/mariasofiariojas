@@ -9,8 +9,8 @@
     "eslint-fix": "npm run eslint -- --fix",
     "autofix": "npm run eslint-fix",
     "check": "npm run eslint",
-    "compile": "rm -rf dist && babel app -d dist",
-    "dev": "babel app -d dist --watch"
+    "compile": "rm -rf dist && node_modules/.bin/babel app -d dist",
+    "dev": "node_modules/.bin/babel app -d dist --watch"
   },
   "dependencies": {
     "body-parser": "1.15.1",
