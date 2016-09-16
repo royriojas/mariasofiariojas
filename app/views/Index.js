@@ -8,7 +8,7 @@ const Index = ({ ...rest }) =>
         <img src="./img/MariaSofia3.png" />
         <h1><a href="https://www.facebook.com/mariasofia.riojastaboada">María Sofía Riojas</a></h1>
         <p>Mi pequeña hija. Esta página está dedicada a ti, dado que la familia de tu madre y tu madre solo nos dejan verte por una hora por semana. Nosotros, tu familia paterna, y yo tu padre te amamos mucho hija. Y esperamos de corazón que esto cambie pronto. Estamos entrampados en un montón de líos legales que ojalá a la larga nos permitan verte.</p>
-        <p>Tu no titleenes la culpa hija, la intransigencia y tozudez de la familia de tu madre te daña y ellos no se dan cuenta.</p>
+        <p>Tu no tienes la culpa hija, la intransigencia y tozudez de la familia de tu madre te daña y ellos no se dan cuenta.</p>
         <p>Pero mi niña: No hay mal que dure cien años. Ni cuerpo que lo resista</p>
         <p>Tu Padre que te ama.</p>
         <p>Roy Riojas</p>
