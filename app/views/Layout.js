@@ -3,7 +3,7 @@ import React from 'react';
 const Layout = ({ title, children }) =>
   <html lang="en">
   <head>
-   <title>title</title>
+   <title>{ title }</title>
    <link rel="apple-touch-icon"
          sizes="180x180"
          href="/apple-touch-icon.png" />
