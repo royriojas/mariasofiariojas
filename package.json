@@ -1,6 +1,6 @@
 {
   "name": "ms-web",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./dist/bin/www",
@@ -9,8 +9,8 @@
     "eslint-fix": "npm run eslint -- --fix",
     "autofix": "npm run eslint-fix",
     "check": "npm run eslint",
-    "compile": "rm -rf dist && node_modules/.bin/babel app -d dist",
-    "dev": "node_modules/.bin/babel app -d dist --watch"
+    "compile": "rm -rf dist && babel app -d dist",
+    "dev": "babel app -d dist --watch"
   },
   "dependencies": {
     "body-parser": "1.15.1",
